@@ -1,0 +1,38 @@
+/* .ddiv {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 40s;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:1070px; top:0px;}
+
+  } */
+  .test {
+    width: 100px;
+    height: 40px;
+    transition: width 2s ease-in-out 0.5s;
+  }
+  
+  .test:hover {
+    width: 100px;
+    background: #d4d5d6;
+  }
+  /*----------- CSS transition (Start) ---------- */
+.my-image {
+  width:  35px;
+  height: 35px;
+ transition: width 2s height 2s linear 1s;
+ transition:  linear 1s;
+
+}
+
+.my-image:hover {
+  width: 75px;
+  height: 75px;
+}
+/*----------- CSS transition (Start) ---------- */

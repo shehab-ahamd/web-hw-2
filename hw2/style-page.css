@@ -1,0 +1,58 @@
+body {
+    /* المطلوب الأول هنا */
+    height: 100vh;
+    text-align: center;
+  background-image: url(../img/black-background-border.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  }
+  .card {
+    /* المطلوب الثاني هنا */
+    width: 700px;
+    height: 600px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 8px gold;
+  }
+  
+  img {
+    /* المطلوب الثالث هنا */
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 8px gold;
+  }
+  
+  .center {
+    margin: auto;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    list-style-type:none;
+    list-style-type: circle;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    
+  }
+  h3:hover{
+  
+    text-shadow: 6px 5px 9px gold;
+}  
+.pad{
+    margin: 10px;
+}
+.mimg{
+  width: 25px;
+height: 25px;
+}

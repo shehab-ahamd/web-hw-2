@@ -1,0 +1,37 @@
+body{
+    background: #d4d5d6;
+}
+
+.sli{
+    height:700px;
+    width:100%;
+}
+.het{
+width: 10px;
+height: 10px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.imgs {
+    width: 72px;
+    height: 72px;
+    
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color:#d4d5d6;
+    color: white;
+    margin-bottom: 10px;
+  }
+.nv{
+    background-color:  #d4d5d6;
+}
+.imgg {
+    border-radius: 50%;
+  }
